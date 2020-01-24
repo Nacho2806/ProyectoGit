@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tablas</title>
+    <link rel="stylesheet" href="tabla.css">
+
+</head>
+<body>
+<table>
+    <caption>Mi Horario de Clases</caption>
+    <!--Colorear Columnas.. USO COLGROUP (un col para c/columna de la tabla)-->
+     <colgroup>
+         <col span="4">
+         <col style="background: red">
+     </colgroup>
+    <thead>
+    <tr>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miercoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td rowspan="2">Lenguajes</td>
+        <td rowspan="2">Bases</td>
+        <td>POO</td>
+        <td rowspan="2">Algoritmos</td>
+        <td>Análisis II</td>
+    </tr>
+    <tr>
+        <td>Probabilidad</td>
+        <td>Electrónica</td>
+    </tr>
+     <tr>
+         <td colspan="5">Recreo</td>
+     </tr>
+
+    <tr>
+        <td>9.30</td>
+        <td>11.00</td>
+        <td>12.00</td>
+        <td>13.45</td>
+        <td>14.30</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <!--Para colorear filas uso el style background en el tr de la fila que quiero colorear -->
+         <tr style="background: red">
+             <td>2 creditos</td>
+             <td>4 creditos</td>
+             <td>6 creditos</td>
+             <td>4 creditos</td>
+             <td>8 creditos</td>
+         </tr>
+    </tfoot>
+</table>
+</body>
+</html>
+

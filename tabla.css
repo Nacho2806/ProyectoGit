@@ -1,0 +1,15 @@
+table {
+    border-collapse: collapse;
+}
+
+td{
+   border: 1px solid #cccccc;
+}
+th{
+   background: salmon;
+   color: blue;
+}
+td,th {
+     text-align: center;
+     padding: 0.5em;
+}
