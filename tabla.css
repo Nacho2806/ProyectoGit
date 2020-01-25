@@ -17,8 +17,9 @@ td,th {
 h2{
     color: blue;
     font-size: 30px;
-    font-family: fantasy;
-    margin-left: 475px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 300px;
+    text-transform: uppercase;
     
 }
 
@@ -27,7 +28,7 @@ h2::after{
    display: block;
    background: red;
    height: 3px;
-   width: 20%;
+   width: 72%;
 }
 p{
    margin: auto;
