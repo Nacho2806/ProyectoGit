@@ -13,3 +13,44 @@ td,th {
      text-align: center;
      padding: 0.5em;
 }
+
+h2{
+    color: blue;
+    font-size: 30px;
+    font-family: fantasy;
+    margin-left: 475px;
+    
+}
+
+h2::after{
+   content: '';
+   display: block;
+   background: red;
+   height: 3px;
+   width: 20%;
+}
+p{
+   margin: auto;
+   color: green;
+}
+.box{
+   width: 50%;
+   height: 30vh;
+   border:  2px solid yellow;
+   padding: 2px;
+}
+
+p::before{
+      content: '';
+      display: block;
+      font-size: .5em;
+      background: hsla(60, 100%, 50%, .3);
+    }   
+button{
+   background: center red;
+   color:white;
+   font-size: 25px;
+   margin-left: 275px;
+   margin-top: 50px;
+   border-radius: 5px;
+}
