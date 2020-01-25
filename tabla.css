@@ -53,4 +53,10 @@ button{
    margin-left: 275px;
    margin-top: 50px;
    border-radius: 5px;
+   transition: 0.3s;
 }
+
+button:hover{
+   transform: scale(1.2);
+}
+
