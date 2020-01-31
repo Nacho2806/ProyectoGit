@@ -35,9 +35,7 @@ p{
    color: green;
 }
 .box{
-   width: 200px;
-   height: 200px;
-   border:  2px solid yellow;
+   display: inline;
    padding: 2px;
 }
 
